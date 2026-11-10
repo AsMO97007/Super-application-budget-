@@ -1,0 +1,40 @@
+BUDGET AMONY — version iPhone (hors ligne)
+===========================================
+
+Tes données restent uniquement sur ton iPhone. Ces fichiers ne contiennent que le code de l'app.
+Il faut les mettre en ligne une seule fois (gratuit) pour que Safari puisse installer l'app.
+
+1) METTRE L'APP EN LIGNE AVEC GITHUB PAGES (gratuit, faisable depuis l'iPhone)
+   a. Crée un compte sur github.com.
+   b. Touche « + » puis « New repository ». Nom : budget. Choisis « Public ». Valide avec « Create repository ».
+   c. Dans le dépôt : « Add file » > « Upload files ». Sélectionne tous les fichiers de ce dossier
+      (tu peux tous les choisir d'un coup), puis « Commit changes ».
+   d. Va dans « Settings » > « Pages ». Dans « Branch », choisis « main » et « / (root) », puis « Save ».
+   e. Après une à deux minutes, ton app est disponible ici : https://TON-PSEUDO.github.io/budget/
+
+   Depuis un ordinateur, autre solution : va sur app.netlify.com/drop et glisse le dossier entier.
+
+2) INSTALLER SUR L'IPHONE
+   a. Ouvre l'adresse dans Safari.
+   b. Touche le bouton Partager, puis « Sur l'écran d'accueil ».
+   c. Lance l'app depuis son icône. Elle s'ouvre en plein écran et fonctionne même sans réseau.
+
+3) RÉCUPÉRER TON BUDGET ACTUEL
+   a. Dans la version Claude, touche le bouton d'export puis « Excel ».
+   b. Dans l'app installée, touche le bouton d'export, choisis ce fichier, puis « Restaurer la sauvegarde ».
+
+4) BON À SAVOIR
+   - Les données sont enregistrées dans l'app installée, sur l'iPhone. L'onglet Safari a son propre
+     stockage, séparé : utilise toujours l'icône de l'écran d'accueil.
+   - Supprimer l'icône de l'écran d'accueil supprime aussi les données. Fais une sauvegarde avant
+     (Réglages > Sauvegarder maintenant > Enregistrer dans Fichiers > iCloud Drive).
+   - L'avis de Claude a besoin d'internet. Tout le reste fonctionne hors ligne.
+   - Mise à jour : remplace les fichiers sur GitHub. L'app se mettra à jour à la prochaine ouverture avec réseau.
+
+5) METTRE À JOUR VERS LA VERSION 4 (si l'app est déjà installée)
+   a. Par précaution : dans l'app, Réglages > Sauvegarder maintenant > iCloud Drive.
+   b. Sur GitHub, dans ton dépôt « budget » : « Add file » > « Upload files ».
+      Envoie seulement index.html et sw.js (ils remplacent les anciens), puis « Commit changes ».
+   c. Attends 2 minutes, puis ouvre l'app avec internet : ferme-la complètement et relance-la
+      une ou deux fois. La nouvelle version s'installe et tes données restent intactes.
+      Il n'est PAS nécessaire de supprimer l'icône.
